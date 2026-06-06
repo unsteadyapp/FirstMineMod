@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "buddysmod:block/redstone_lucky_block"
+    }
+  }
+}

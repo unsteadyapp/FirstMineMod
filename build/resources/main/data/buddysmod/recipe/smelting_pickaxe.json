@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:raw_iron"
+    },
+    "b": {
+      "item": "minecraft:coal"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "buddysmod:smelt_pickaxe",
+    "count": 1
+  }
+}

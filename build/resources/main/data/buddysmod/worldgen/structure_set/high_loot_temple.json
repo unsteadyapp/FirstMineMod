@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "buddysmod:high_loot_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 30,
+    "salt": 1623227889
+  }
+}

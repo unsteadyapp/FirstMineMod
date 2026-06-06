@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:redstone"
+    },
+    "b": {
+      "item": "buddysmod:lucky_core"
+    }
+  },
+  "result": {
+    "id": "buddysmod:redstone_lucky_block",
+    "count": 1
+  }
+}

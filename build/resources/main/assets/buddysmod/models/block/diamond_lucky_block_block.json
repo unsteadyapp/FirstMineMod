@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buddysmod:block/diamondluckyblock",
+    "up": "buddysmod:block/diamondluckyblock",
+    "north": "buddysmod:block/diamondluckyblock",
+    "east": "buddysmod:block/diamondluckyblock",
+    "south": "buddysmod:block/diamondluckyblock",
+    "west": "buddysmod:block/diamondluckyblock",
+    "particle": "buddysmod:block/diamondluckyblock"
+  },
+  "render_type": "solid"
+}

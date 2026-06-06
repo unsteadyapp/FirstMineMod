@@ -1,0 +1,50 @@
+/gamemode spectator
+/summon minecraft:armor_stand
+/gamemode survival
+/gamemode spectator
+/attribute Dev minecraft:generic.max_health base set 100
+/summon minecraft:armor_stand
+/execute summon minecraft:armor_stand at Dev run give Dev buddysmod:strafer
+/gamemode spectator
+/gamemode survival
+/give @a minecraft:command_block
+/gamemode creative
+/gamemode spectator
+/gamemode creative
+/give @a buddysmod:bouncy_hammer
+/gamemode spectator
+/gamemode survival
+/summon minecraft:armor_stand
+/summon minecraft:armor_stand\
+/summon minecraft:armor_stand
+/summon minecraft:spider
+/summon minecraft:armor_stand
+/summon minecraft:pillager
+/summon minecraft:illusioner
+/effect give @a minecraft:resistance infinite 1
+/effect give @a minecraft:strength
+/gamerule keepInventory true
+/kill @e
+/summon minecraft:pillager
+/summon minecraft:vindicator
+/give @a minecraft:netherite_axe
+/summon minecraft:vindicator
+/give @a buddysmod:lucky_block
+/give @a buddysmod:luck_verse
+/give @a buddysmod:lucky_block
+/tick rate 40
+/tick rate 100
+/tick rate 20
+/give @a minecraft:fishing_rod[minecraft:enchantments={lure:10}]
+/give @a minecraft:fishing_rod[minecraft:enchantments={lure:100}]
+/give @a minecraft:fishing_rod[minecraft:enchantments={lure:5}]
+/give @a minecraft:fishing_rod[minecraft:enchantments={lure:6}]
+/gamemode survival
+/enchant Dev minecraft:efficiency 5
+/fill ~ ~ ~ ~ ~-20 ~ minecraft:ladder
+/fill ~ ~ ~ ~ ~-20 ~ minecraft:stone
+/give @a buddysmod:wood_lucky_block 10
+/fill 4 71 6 100 71 6
+/fill 4 71 6 100 71 6 buddysmod:wood_lucky_block
+/gamemode survival
+/fill ~ ~ ~ ~20 ~ ~20 buddysmod:wood_lucky_block

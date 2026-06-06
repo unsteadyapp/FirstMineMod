@@ -1,0 +1,16 @@
+{
+  "_fv": 85,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Lucky Guy",
+    "pointOfInterest": {
+      "value": "CUSTOM:LuckyBlock"
+    },
+    "actionSound": {
+      "value": "entity.villager.trading"
+    },
+    "hat": "None",
+    "professionTextureFile": "cleric_texture.png",
+    "zombifiedProfessionTextureFile": "cleric_texture.png"
+  }
+}

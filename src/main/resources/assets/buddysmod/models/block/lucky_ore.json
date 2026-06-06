@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buddysmod:block/tluckyore",
+    "up": "buddysmod:block/tluckyore",
+    "north": "buddysmod:block/tluckyore",
+    "east": "buddysmod:block/tluckyore",
+    "south": "buddysmod:block/tluckyore",
+    "west": "buddysmod:block/tluckyore",
+    "particle": "buddysmod:block/tluckyore"
+  },
+  "render_type": "solid"
+}

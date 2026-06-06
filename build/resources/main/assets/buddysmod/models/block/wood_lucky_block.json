@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buddysmod:block/woodluckyblock",
+    "up": "buddysmod:block/woodluckyblock",
+    "north": "buddysmod:block/woodluckyblock",
+    "east": "buddysmod:block/woodluckyblock",
+    "south": "buddysmod:block/woodluckyblock",
+    "west": "buddysmod:block/woodluckyblock",
+    "particle": "buddysmod:block/woodluckyblock"
+  },
+  "render_type": "solid"
+}

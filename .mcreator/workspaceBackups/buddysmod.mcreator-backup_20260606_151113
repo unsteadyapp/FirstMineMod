@@ -1,0 +1,1356 @@
+{
+  "mod_elements": [
+    {
+      "name": "LuckyBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/LuckyBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/blockstates/lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/item/lucky_block.json",
+          "src/main/java/net/mcreator/buddysmod/block/LuckyBlockBlock.java",
+          "src/main/resources/data/buddysmod/loot_table/blocks/lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/block/lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BasicLuckyBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/basic_lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/models/item/lucky_core.json",
+          "src/main/java/net/mcreator/buddysmod/item/LuckyCoreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/models/item/lucky_ore.json",
+          "src/main/resources/assets/buddysmod/models/block/lucky_ore.json",
+          "src/main/java/net/mcreator/buddysmod/block/LuckyOreBlock.java",
+          "src/main/resources/assets/buddysmod/blockstates/lucky_ore.json",
+          "src/main/resources/data/buddysmod/loot_table/blocks/lucky_ore.json",
+          "src/main/resources/data/buddysmod/worldgen/configured_feature/lucky_ore.json",
+          "src/main/resources/data/buddysmod/worldgen/placed_feature/lucky_ore.json",
+          "src/main/resources/data/buddysmod/neoforge/biome_modifier/lucky_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/block/ReinforcedGlassBlock.java",
+          "src/main/resources/assets/buddysmod/models/item/reinforced_glass.json",
+          "src/main/resources/data/buddysmod/loot_table/blocks/reinforced_glass.json",
+          "src/main/resources/assets/buddysmod/models/block/reinforced_glass.json",
+          "src/main/resources/assets/buddysmod/blockstates/reinforced_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "CReinforcedGlass",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_reinforced_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/c_reinforced_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "RareLuckyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/loot_table/blocks/rare_lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/item/rare_lucky_block.json",
+          "src/main/resources/assets/buddysmod/blockstates/rare_lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/block/rare_lucky_block.json",
+          "src/main/java/net/mcreator/buddysmod/block/RareLuckyBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RareLuckyBlockProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_lucky_block_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/RareLuckyBlockProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MythicLuckyBlockProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mythic_lucky_block_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/MythicLuckyBlockProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmingLuckyBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farming_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/FarmingLuckyBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FarmerLuckyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmer_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/blockstates/farmer_lucky_block.json",
+          "src/main/resources/data/buddysmod/loot_table/blocks/farmer_lucky_block.json",
+          "src/main/java/net/mcreator/buddysmod/block/FarmerLuckyBlockBlock.java",
+          "src/main/resources/assets/buddysmod/models/block/farmer_lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/item/farmer_lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CFarmingLuckyBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_farming_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/c_farming_lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneLuckyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/block/RedstoneLuckyBlockBlock.java",
+          "src/main/resources/data/buddysmod/loot_table/blocks/redstone_lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/item/redstone_lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/block/redstone_lucky_block.json",
+          "src/main/resources/assets/buddysmod/blockstates/redstone_lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RedstoneLuckyBlockBroken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_lucky_block_broken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/RedstoneLuckyBlockBrokenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rredstoneluckyblock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rredstoneluckyblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/rredstoneluckyblock.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyTemple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/worldgen/structure_set/lucky_temple.json",
+          "src/main/resources/data/buddysmod/worldgen/template_pool/lucky_temple.json",
+          "src/main/resources/data/buddysmod/worldgen/structure/lucky_temple.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckyGuy",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_guy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LuckyGueTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucky_gue_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DiamondLuckyBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/diamond_lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondLuckyBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_lucky_block_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/DiamondLuckyBlockBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bowy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/models/item/bowy.json",
+          "src/main/java/net/mcreator/buddysmod/item/BowyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BombArrow",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_arrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/entity/BombArrowEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BombArrowProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_arrow_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/BombArrowProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StraferLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strafer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/StraferLivingEntityIsHitWithToolProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Strafer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strafer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/StraferItem.java",
+          "src/main/resources/assets/buddysmod/models/item/strafer.json"
+        ]
+      }
+    },
+    {
+      "name": "ReallyLongStick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "really_long_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/models/item/really_long_stick.json",
+          "src/main/java/net/mcreator/buddysmod/item/ReallyLongStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReallyLongStickToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "really_long_stick_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/ReallyLongStickToolInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ReallyLongStickR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "really_long_stick_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/really_long_stick_r.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondLuckyBlockBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_lucky_block_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/loot_table/blocks/diamond_lucky_block_block.json",
+          "src/main/resources/assets/buddysmod/models/item/diamond_lucky_block_block.json",
+          "src/main/java/net/mcreator/buddysmod/block/DiamondLuckyBlockBlockBlock.java",
+          "src/main/resources/assets/buddysmod/models/block/diamond_lucky_block_block.json",
+          "src/main/resources/assets/buddysmod/blockstates/diamond_lucky_block_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosivePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/ExplosivePickaxeBlockDestroyedWithToolProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ExplosivePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/ExplosivePickaxeItem.java",
+          "src/main/resources/assets/buddysmod/models/item/explosive_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Lesser",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baseprogram",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/LesserProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Smallexplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallexplosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/SmallexplosionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SmeltPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/SmeltPickaxeItem.java",
+          "src/main/resources/assets/buddysmod/models/item/smelt_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltPickaxeAdditionalDropCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_pickaxe_additional_drop_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/SmeltPickaxeAdditionalDropConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/DirtArmorItem.java",
+          "src/main/resources/assets/buddysmod/models/item/dirt_armor_helmet.json",
+          "src/main/resources/assets/buddysmod/models/item/dirt_armor_leggings.json",
+          "src/main/resources/assets/buddysmod/models/item/dirt_armor_boots.json",
+          "src/main/resources/assets/buddysmod/models/item/dirt_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Troll",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/block/TrollBlock.java",
+          "src/main/resources/assets/buddysmod/blockstates/troll.json",
+          "src/main/resources/assets/buddysmod/models/block/troll.json",
+          "src/main/resources/data/buddysmod/loot_table/blocks/troll.json",
+          "src/main/resources/assets/buddysmod/models/item/troll.json"
+        ]
+      }
+    },
+    {
+      "name": "OpBlockOne",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_block_one",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/op_block_one.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/op_block_one.json"
+        ]
+      }
+    },
+    {
+      "name": "BestInTheGame",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "best_in_the_game",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/advancement/best_in_the_game.json"
+        ]
+      }
+    },
+    {
+      "name": "OpBlockTwo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_block_two",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/op_block_two.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/op_block_two.json"
+        ]
+      }
+    },
+    {
+      "name": "CookedFleshedPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_fleshed_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/CookedFleshedPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CookedFleshed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_fleshed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/models/item/cooked_fleshed.json",
+          "src/main/java/net/mcreator/buddysmod/item/CookedFleshedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HighLootTemple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_loot_temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/worldgen/structure/high_loot_temple.json",
+          "src/main/resources/data/buddysmod/worldgen/template_pool/high_loot_temple.json",
+          "src/main/resources/data/buddysmod/worldgen/structure_set/high_loot_temple.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosivePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/explosive_pickaxe_recipe.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/explosive_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltingPickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/smelting_pickaxe.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/smelting_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltRottenFlesh",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_rotten_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/smelt_rotten_flesh.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/smelt_rotten_flesh.json"
+        ]
+      }
+    },
+    {
+      "name": "NewUnlinkedLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_unlinked_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/loot_table/chests/non_linked.json"
+        ]
+      }
+    },
+    {
+      "name": "KitPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kit_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/KitPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Kit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/KitItem.java",
+          "src/main/resources/assets/buddysmod/models/item/kit.json"
+        ]
+      }
+    },
+    {
+      "name": "KitCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kit_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/kit_crafting.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/kit_crafting.json"
+        ]
+      }
+    },
+    {
+      "name": "BouncyHammerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_hammer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/BouncyHammerLivingEntityIsHitWithToolProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BouncyHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/BouncyHammerItem.java",
+          "src/main/resources/assets/buddysmod/models/item/bouncy_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "BouncyHammerToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_hammer_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/BouncyHammerToolInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BouncyHammerR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_hammer_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/advancement/recipes/bouncy_hammer_r.json",
+          "src/main/resources/data/buddysmod/recipe/bouncy_hammer_r.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckVerse",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_verse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/buddysmod/models/block/luck_verse_portal_ew.json",
+          "src/main/java/net/mcreator/buddysmod/block/LuckVersePortalBlock.java",
+          "src/main/java/net/mcreator/buddysmod/world/teleporter/LuckVerseTeleporter.java",
+          "src/main/java/net/mcreator/buddysmod/item/LuckVerseItem.java",
+          "src/main/resources/assets/buddysmod/models/block/luck_verse_portal_ns.json",
+          "src/main/java/net/mcreator/buddysmod/world/teleporter/LuckVersePortalShape.java",
+          "src/main/resources/data/buddysmod/dimension_type/luck_verse.json",
+          "src/main/resources/data/buddysmod/dimension/luck_verse.json",
+          "src/main/resources/assets/buddysmod/models/item/luck_verse.json",
+          "src/main/java/net/mcreator/buddysmod/world/dimension/LuckVerseDimension.java",
+          "src/main/resources/assets/buddysmod/blockstates/luck_verse_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "LuckVersePlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_verse_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/LuckVersePlayerEntersDimensionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckVersePlayerLeavesDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_verse_player_leaves_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/LuckVersePlayerLeavesDimensionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NatrureReclaimer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natrure_reclaimer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/item/NatrureReclaimerItem.java",
+          "src/main/resources/assets/buddysmod/models/item/natrure_reclaimer.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodLuckyBlockProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_lucky_block_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/WoodLuckyBlockProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodLuckyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_lucky_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/block/WoodLuckyBlockBlock.java",
+          "src/main/resources/assets/buddysmod/models/item/wood_lucky_block.json",
+          "src/main/resources/data/buddysmod/loot_table/blocks/wood_lucky_block.json",
+          "src/main/resources/assets/buddysmod/models/block/wood_lucky_block.json",
+          "src/main/resources/assets/buddysmod/blockstates/wood_lucky_block.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodLuckyBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_lucky_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/buddysmod/recipe/wood_lucky_block_recipe.json",
+          "src/main/resources/data/buddysmod/advancement/recipes/wood_lucky_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sell",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/network/SellMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SellOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sell_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/SellOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SellInterFace",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sell_inter_face",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/world/inventory/SellInterFaceMenu.java",
+          "src/main/java/net/mcreator/buddysmod/client/gui/SellInterFaceScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SellOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sell_on_key_released",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/SellOnKeyReleasedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SellInterFaceWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sell_inter_face_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/SellInterFaceWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Cash",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "sounds",
+      "files": [
+        "the-first-ten-seconds-of-never-gonna-give-you-up-made-with-voicemod"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:LuckyOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:LuckyOre"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BouncyHammer",
+      "~CUSTOM:ReallyLongStick",
+      "~CUSTOM:Strafer"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:NatrureReclaimer",
+      "~CUSTOM:SmeltPickaxe",
+      "~CUSTOM:ExplosivePickaxe"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:DirtArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:DirtArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:DirtArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:DirtArmor.boots"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:CookedFleshed"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:LuckyOre",
+      "~CUSTOM:LuckyBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WoodLuckyBlock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.buddysmod.lucky_block": "Lucky Block",
+      "entity.minecraft.villager.buddysmod.lucky_guy": "Lucky Guy",
+      "block.buddysmod.redstone_lucky_block": "Lucky Block",
+      "item.buddysmod.bowy": "Bowy",
+      "block.buddysmod.rare_lucky_block": "Lucky Block",
+      "item.buddysmod.lucky_core": "Lucky Core",
+      "block.buddysmod.reinforced_glass": "Reinforced Glass",
+      "block.buddysmod.lucky_ore": "Lucky Ore",
+      "block.buddysmod.farmer_lucky_block": "Lucky Block",
+      "item.buddysmod.strafer": "Strafer",
+      "item.buddysmod.really_long_stick": "Really Long Stick",
+      "block.buddysmod.diamond_lucky_block_block": "Lucky Block",
+      "item.buddysmod.explosive_pickaxe": "Explosive Pickaxe",
+      "item.buddysmod.smelt_pickaxe": "Smelting Pickaxe",
+      "item.buddysmod.dirt_armor_chestplate": "Dirt Armor Chestplate",
+      "item.buddysmod.dirt_armor_boots": "Dirt Armor Boots",
+      "item.buddysmod.dirt_armor_leggings": "Dirt Armor Leggings",
+      "item.buddysmod.dirt_armor_helmet": "Dirt Armor Helmet",
+      "subtitles.sounds": "",
+      "block.buddysmod.troll": "OP LUCKY BLOCK",
+      "advancements.best_in_the_game.descr": "Be able to craft the ultimate lucky block",
+      "advancements.best_in_the_game.title": "Best In The Game",
+      "item.buddysmod.cooked_fleshed": "Cooked Flesh",
+      "item.buddysmod.kit": "Kit",
+      "item.buddysmod.bouncy_hammer": "Bouncy Hammer",
+      "item.buddysmod.luck_verse": "Luck Verse Portal Igniter",
+      "item.buddysmod.natrure_reclaimer": "Natrure Reclaimer",
+      "block.buddysmod.wood_lucky_block": "Wood Lucky Block",
+      "key.buddysmod.sell": "Sell",
+      "gui.buddysmod.sell_inter_face.label_sell_items": "Sell Items"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/buddysmod/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModScreens.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModMenus.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModKeyMappings.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModTrades.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModBlocks.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModItems.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModEntityRenderers.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModEntities.java",
+      "src/main/java/net/mcreator/buddysmod/BuddysmodMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/buddysmod/sounds.json",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModTabs.java",
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModSounds.java",
+      "src/main/java/net/mcreator/buddysmod/network/BuddysmodModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "buddysmod",
+    "modName": "buddysmod",
+    "version": "1.0.0",
+    "author": "aronk, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.buddysmod"
+  },
+  "mcreatorVersion": 202600114619
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "b": {
+      "item": "buddysmod:lucky_core"
+    }
+  },
+  "result": {
+    "id": "buddysmod:farmer_lucky_block",
+    "count": 1
+  }
+}

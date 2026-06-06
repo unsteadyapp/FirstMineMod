@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "buddysmod:lucky_core"
+    }
+  },
+  "result": {
+    "id": "buddysmod:wood_lucky_block",
+    "count": 1
+  }
+}

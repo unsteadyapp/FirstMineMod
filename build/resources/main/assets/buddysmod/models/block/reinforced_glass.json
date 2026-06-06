@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "buddysmod:block/treinforcedglass",
+    "up": "buddysmod:block/treinforcedglass",
+    "north": "buddysmod:block/treinforcedglass",
+    "east": "buddysmod:block/treinforcedglass",
+    "south": "buddysmod:block/treinforcedglass",
+    "west": "buddysmod:block/treinforcedglass",
+    "particle": "buddysmod:block/treinforcedglass"
+  },
+  "render_type": "cutout"
+}

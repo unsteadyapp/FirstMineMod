@@ -1,0 +1,82 @@
+{
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2026-06-05 07:59:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2026-06-05 07:59:51 -0700"
+    },
+    "done": true
+  },
+  "buddysmod:recipes/op_block_one": {
+    "criteria": {
+      "has_ingredient_2": "2026-06-05 07:59:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2026-06-05 07:59:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-06-05 07:59:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-06-05 07:58:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-06-05 07:59:45 -0700"
+    },
+    "done": true
+  },
+  "buddysmod:best_in_the_game": {
+    "criteria": {
+      "best_in_the_game_0": "2026-06-05 07:59:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2026-06-05 07:59:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-06-05 07:59:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2026-06-05 07:59:15 -0700",
+      "minecraft:snowy_plains": "2026-06-05 07:58:59 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2026-06-05 07:59:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-06-05 07:59:46 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

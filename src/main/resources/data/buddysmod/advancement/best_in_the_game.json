@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "buddysmod:troll"
+    },
+    "title": {
+      "translate": "advancements.best_in_the_game.title"
+    },
+    "description": {
+      "translate": "advancements.best_in_the_game.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "best_in_the_game_0": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "buddysmod:op_block_one"
+      }
+    }
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

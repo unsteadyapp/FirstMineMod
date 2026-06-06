@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "buddysmod:block/luck_verse_portal_ew"
+    },
+    "axis=x": {
+      "model": "buddysmod:block/luck_verse_portal_ns"
+    }
+  }
+}
