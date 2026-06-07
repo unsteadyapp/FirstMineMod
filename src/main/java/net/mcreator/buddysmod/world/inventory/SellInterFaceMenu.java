@@ -250,7 +250,7 @@ public class SellInterFaceMenu extends AbstractContainerMenu implements Buddysmo
 			double x = menu.x;
 			double y = menu.y;
 			double z = menu.z;
-			SellInterFaceWhileThisGUIIsOpenTickProcedure.execute(entity);
+			SellInterFaceWhileThisGUIIsOpenTickProcedure.execute(world, entity);
 		}
 	}
 }

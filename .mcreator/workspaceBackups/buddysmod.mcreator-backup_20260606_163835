@@ -1187,19 +1187,6 @@
       }
     },
     {
-      "name": "SellOnKeyReleased",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sell_on_key_released",
-      "metadata": {
-        "dependencies": [],
-        "files": [
-          "src/main/java/net/mcreator/buddysmod/procedures/SellOnKeyReleasedProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "SellInterFaceWhileThisGUIIsOpenTick",
       "type": "procedure",
       "compiles": true,

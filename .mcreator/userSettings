@@ -8,14 +8,14 @@
     ]
   },
   "leftDockState": {
+    "expandedDock": "project_browser",
     "dockSizes": {
       "project_browser": 280
     }
   },
   "bottomDockState": {
-    "expandedDock": "console",
     "dockSizes": {
-      "console": 433,
+      "console": 27,
       "code_viewer": 300,
       "debugger": 300
     }

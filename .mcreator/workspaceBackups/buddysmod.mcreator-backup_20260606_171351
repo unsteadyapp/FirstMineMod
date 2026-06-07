@@ -1187,11 +1187,11 @@
       }
     },
     {
-      "name": "SellOnKeyReleased",
+      "name": "SellInterFaceWhileThisGUIIsOpenTick",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sell_on_key_released",
+      "registry_name": "sell_inter_face_while_this_gui_is_open_tick",
       "metadata": {
         "dependencies": [
           {
@@ -1200,12 +1200,62 @@
           }
         ],
         "files": [
-          "src/main/java/net/mcreator/buddysmod/procedures/SellOnKeyReleasedProcedure.java"
+          "src/main/java/net/mcreator/buddysmod/procedures/SellInterFaceWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CashOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cash_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/client/screens/CashOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "GetCash",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_cash",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/GetCashProcedure.java"
         ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Cash",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "blockValue",
+      "type": "arraylist",
+      "scope": "world",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "blockName",
+      "type": "arraylist",
+      "scope": "world",
+      "value": "new ArrayList\u003c\u003e()"
+    }
+  ],
   "sound_elements": [
     {
       "name": "sounds",
@@ -1287,7 +1337,9 @@
       "item.buddysmod.luck_verse": "Luck Verse Portal Igniter",
       "item.buddysmod.natrure_reclaimer": "Natrure Reclaimer",
       "block.buddysmod.wood_lucky_block": "Wood Lucky Block",
-      "key.buddysmod.sell": "Sell"
+      "key.buddysmod.sell": "Sell",
+      "gui.buddysmod.sell_inter_face.label_sell_items": "Sell Items",
+      "gui.buddysmod.cash_overlay.label_cash": "Cash: "
     }
   },
   "metadata": {
@@ -1308,7 +1360,8 @@
       "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/buddysmod/sounds.json",
       "src/main/java/net/mcreator/buddysmod/init/BuddysmodModTabs.java",
-      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModSounds.java"
+      "src/main/java/net/mcreator/buddysmod/init/BuddysmodModSounds.java",
+      "src/main/java/net/mcreator/buddysmod/network/BuddysmodModVariables.java"
     ]
   },
   "foldersRoot": {
