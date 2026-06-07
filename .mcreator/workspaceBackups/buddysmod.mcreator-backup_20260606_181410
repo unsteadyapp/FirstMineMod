@@ -1197,6 +1197,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -1234,6 +1238,42 @@
           "src/main/java/net/mcreator/buddysmod/procedures/GetCashProcedure.java"
         ]
       }
+    },
+    {
+      "name": "BlockMoneySetProcedure",
+      "type": "procedure",
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "block_money_set_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/BlockMoneySetProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Testing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/TestingProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1242,6 +1282,18 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "blockValue",
+      "type": "arraylist",
+      "scope": "world",
+      "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "blockName",
+      "type": "arraylist",
+      "scope": "world",
+      "value": "new ArrayList\u003c\u003e()"
     }
   ],
   "sound_elements": [
@@ -1344,6 +1396,7 @@
       "src/main/java/net/mcreator/buddysmod/init/BuddysmodModEntityRenderers.java",
       "src/main/java/net/mcreator/buddysmod/init/BuddysmodModEntities.java",
       "src/main/java/net/mcreator/buddysmod/BuddysmodMod.java",
+      "src/main/java/net/mcreator/buddysmod/network/NbtArrayLists.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/buddysmod/sounds.json",

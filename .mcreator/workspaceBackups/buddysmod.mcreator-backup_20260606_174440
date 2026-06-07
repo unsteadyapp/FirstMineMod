@@ -1197,6 +1197,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -1232,6 +1236,24 @@
         "return_type": "string",
         "files": [
           "src/main/java/net/mcreator/buddysmod/procedures/GetCashProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BlockMoneySetProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_money_set_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/BlockMoneySetProcedureProcedure.java"
         ]
       }
     }
@@ -1356,6 +1378,7 @@
       "src/main/java/net/mcreator/buddysmod/init/BuddysmodModEntityRenderers.java",
       "src/main/java/net/mcreator/buddysmod/init/BuddysmodModEntities.java",
       "src/main/java/net/mcreator/buddysmod/BuddysmodMod.java",
+      "src/main/java/net/mcreator/buddysmod/network/NbtArrayLists.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/assets/buddysmod/sounds.json",

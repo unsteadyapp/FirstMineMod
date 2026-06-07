@@ -1242,8 +1242,8 @@
     {
       "name": "BlockMoneySetProcedure",
       "type": "procedure",
-      "compiles": false,
-      "locked_code": false,
+      "compiles": true,
+      "locked_code": true,
       "registry_name": "block_money_set_procedure",
       "metadata": {
         "dependencies": [
@@ -1254,6 +1254,24 @@
         ],
         "files": [
           "src/main/java/net/mcreator/buddysmod/procedures/BlockMoneySetProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Testing",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/TestingProcedure.java"
         ]
       }
     }

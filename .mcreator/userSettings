@@ -15,8 +15,8 @@
   },
   "bottomDockState": {
     "dockSizes": {
-      "console": 27,
-      "code_viewer": 300,
+      "console": 254,
+      "code_viewer": 27,
       "debugger": 300
     }
   }
