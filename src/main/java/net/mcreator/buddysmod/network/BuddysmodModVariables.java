@@ -121,8 +121,7 @@ public class BuddysmodModVariables {
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "buddysmod_worldvars";
 		boolean _syncDirty = false;
-		public ArrayList<Object> blockValue = new ArrayList<>();
-		public ArrayList<Object> blockName = new ArrayList<>();
+		public double dummy = 0;
 
 		public static WorldVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			WorldVariables data = new WorldVariables();
@@ -131,14 +130,12 @@ public class BuddysmodModVariables {
 		}
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			blockValue = NbtArrayLists.loadGlobalWorld(nbt.getList("blockValue", Tag.TAG_COMPOUND), lookupProvider);
-			blockName = NbtArrayLists.loadGlobalWorld(nbt.getList("blockName", Tag.TAG_COMPOUND), lookupProvider);
+			dummy = nbt.getDouble("dummy");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			nbt.put("blockValue", NbtArrayLists.saveGlobalWorld(blockValue, lookupProvider));
-			nbt.put("blockName", NbtArrayLists.saveGlobalWorld(blockName, lookupProvider));
+			nbt.putDouble("dummy", dummy);
 			return nbt;
 		}
 
@@ -161,6 +158,8 @@ public class BuddysmodModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "buddysmod_mapvars";
 		boolean _syncDirty = false;
+		public ArrayList<Object> blockValue = new ArrayList<>();
+		public ArrayList<Object> blockName = new ArrayList<>();
 
 		public static MapVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			MapVariables data = new MapVariables();
@@ -169,10 +168,14 @@ public class BuddysmodModVariables {
 		}
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
+			blockValue = NbtArrayLists.loadGlobalMap(nbt.getList("blockValue", Tag.TAG_COMPOUND), lookupProvider);
+			blockName = NbtArrayLists.loadGlobalMap(nbt.getList("blockName", Tag.TAG_COMPOUND), lookupProvider);
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
+			nbt.put("blockValue", NbtArrayLists.saveGlobalMap(blockValue, lookupProvider));
+			nbt.put("blockName", NbtArrayLists.saveGlobalMap(blockName, lookupProvider));
 			return nbt;
 		}
 

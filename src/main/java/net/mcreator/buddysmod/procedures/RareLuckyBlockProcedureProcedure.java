@@ -98,7 +98,7 @@ public class RareLuckyBlockProcedureProcedure {
 		}
 		if (random == 11) {
 			if (world instanceof ServerLevel _level)
-				_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("pile_hay"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(), BlockPos.containing(x, y, z));
+				_level.holderOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.parse("trees_plains"))).value().place(_level, _level.getChunkSource().getGenerator(), _level.getRandom(), BlockPos.containing(x, y, z));
 		}
 	}
 }

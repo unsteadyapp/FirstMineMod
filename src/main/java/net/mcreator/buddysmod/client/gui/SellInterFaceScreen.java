@@ -64,6 +64,8 @@ public class SellInterFaceScreen extends AbstractContainerScreen<SellInterFaceMe
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.buddysmod.sell_inter_face.label_sell_items"), 6, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.buddysmod.sell_inter_face.label_sell"), 9, 43, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.buddysmod.sell_inter_face.label_buy"), 140, 43, -12829636, false);
 	}
 
 	@Override

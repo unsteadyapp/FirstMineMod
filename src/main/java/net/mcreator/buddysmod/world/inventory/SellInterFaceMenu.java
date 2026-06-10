@@ -37,7 +37,7 @@ public class SellInterFaceMenu extends AbstractContainerMenu implements Buddysmo
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 2)
+			if (!this.containsKey(key) && this.size() >= 5)
 				return null;
 			return super.put(key, value);
 		}
@@ -57,7 +57,7 @@ public class SellInterFaceMenu extends AbstractContainerMenu implements Buddysmo
 		super(BuddysmodModMenus.SELL_INTER_FACE.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(1);
+		this.internal = new ItemStackHandler(2);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -94,8 +94,13 @@ public class SellInterFaceMenu extends AbstractContainerMenu implements Buddysmo
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 73, 25) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 10, 23) {
 			private final int slot = 0;
+			private int x = SellInterFaceMenu.this.x;
+			private int y = SellInterFaceMenu.this.y;
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 140, 25) {
+			private final int slot = 1;
 			private int x = SellInterFaceMenu.this.x;
 			private int y = SellInterFaceMenu.this.y;
 		}));
@@ -126,16 +131,16 @@ public class SellInterFaceMenu extends AbstractContainerMenu implements Buddysmo
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 1) {
-				if (!this.moveItemStackTo(itemstack1, 1, this.slots.size(), true))
+			if (index < 2) {
+				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 1, false)) {
-				if (index < 1 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 1 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
+				if (index < 2 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 1, 1 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

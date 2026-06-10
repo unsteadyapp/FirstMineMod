@@ -1,0 +1,47 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-06-06 20:13:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2026-06-06 20:13:52 -0700",
+      "minecraft:forest": "2026-06-06 20:13:49 -0700",
+      "minecraft:plains": "2026-06-06 20:13:33 -0700"
+    },
+    "done": false
+  },
+  "buddysmod:recipes/op_block_one": {
+    "criteria": {
+      "has_ingredient_0": "2026-06-06 20:13:37 -0700"
+    },
+    "done": true
+  },
+  "buddysmod:best_in_the_game": {
+    "criteria": {
+      "best_in_the_game_0": "2026-06-06 20:13:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-06-06 20:14:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-06-06 20:14:46 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-06-06 20:14:46 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

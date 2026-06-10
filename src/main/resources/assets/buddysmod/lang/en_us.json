@@ -28,6 +28,8 @@
   "item.buddysmod.natrure_reclaimer": "Natrure Reclaimer",
   "block.buddysmod.wood_lucky_block": "Wood Lucky Block",
   "key.buddysmod.sell": "Sell",
-  "gui.buddysmod.sell_inter_face.label_sell_items": "Sell Items",
-  "gui.buddysmod.cash_overlay.label_cash": "Cash: "
+  "gui.buddysmod.sell_inter_face.label_sell_items": "Sell or Buy Items",
+  "gui.buddysmod.cash_overlay.label_cash": "Cash: ",
+  "gui.buddysmod.sell_inter_face.label_sell": "Sell",
+  "gui.buddysmod.sell_inter_face.label_buy": "buy"
 }

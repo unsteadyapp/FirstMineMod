@@ -1274,6 +1274,50 @@
           "src/main/java/net/mcreator/buddysmod/procedures/TestingProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Dummytest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummytest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/procedures/DummytestProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BuyGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buy_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/world/inventory/BuyGuiMenu.java",
+          "src/main/java/net/mcreator/buddysmod/client/gui/BuyGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SlotsSave",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slots_save",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/buddysmod/client/gui/SlotsSaveScreen.java",
+          "src/main/java/net/mcreator/buddysmod/world/inventory/SlotsSaveMenu.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1286,14 +1330,20 @@
     {
       "name": "blockValue",
       "type": "arraylist",
-      "scope": "world",
+      "scope": "map",
       "value": "new ArrayList\u003c\u003e()"
     },
     {
       "name": "blockName",
       "type": "arraylist",
-      "scope": "world",
+      "scope": "map",
       "value": "new ArrayList\u003c\u003e()"
+    },
+    {
+      "name": "dummy",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1378,8 +1428,10 @@
       "item.buddysmod.natrure_reclaimer": "Natrure Reclaimer",
       "block.buddysmod.wood_lucky_block": "Wood Lucky Block",
       "key.buddysmod.sell": "Sell",
-      "gui.buddysmod.sell_inter_face.label_sell_items": "Sell Items",
-      "gui.buddysmod.cash_overlay.label_cash": "Cash: "
+      "gui.buddysmod.sell_inter_face.label_sell_items": "Sell or Buy Items",
+      "gui.buddysmod.cash_overlay.label_cash": "Cash: ",
+      "gui.buddysmod.sell_inter_face.label_sell": "Sell",
+      "gui.buddysmod.sell_inter_face.label_buy": "buy"
     }
   },
   "metadata": {

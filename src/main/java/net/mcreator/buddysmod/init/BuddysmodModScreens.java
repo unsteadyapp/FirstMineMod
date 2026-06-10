@@ -9,12 +9,14 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.buddysmod.client.gui.SellInterFaceScreen;
+import net.mcreator.buddysmod.client.gui.BuyGuiScreen;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class BuddysmodModScreens {
 	@SubscribeEvent
 	public static void clientLoad(RegisterMenuScreensEvent event) {
 		event.register(BuddysmodModMenus.SELL_INTER_FACE.get(), SellInterFaceScreen::new);
+		event.register(BuddysmodModMenus.BUY_GUI.get(), BuyGuiScreen::new);
 	}
 
 	public interface ScreenAccessor {

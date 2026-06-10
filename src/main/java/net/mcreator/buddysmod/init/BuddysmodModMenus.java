@@ -16,6 +16,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.buddysmod.world.inventory.SellInterFaceMenu;
+import net.mcreator.buddysmod.world.inventory.BuyGuiMenu;
 import net.mcreator.buddysmod.network.MenuStateUpdateMessage;
 import net.mcreator.buddysmod.BuddysmodMod;
 
@@ -24,6 +25,7 @@ import java.util.Map;
 public class BuddysmodModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, BuddysmodMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<SellInterFaceMenu>> SELL_INTER_FACE = REGISTRY.register("sell_inter_face", () -> IMenuTypeExtension.create(SellInterFaceMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<BuyGuiMenu>> BUY_GUI = REGISTRY.register("buy_gui", () -> IMenuTypeExtension.create(BuyGuiMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();
